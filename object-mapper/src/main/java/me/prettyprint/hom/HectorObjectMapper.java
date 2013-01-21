@@ -663,7 +663,7 @@ public class HectorObjectMapper {
     return false;
   }
 
-  private <T> void addToExtraIfCan(Object obj, CFMappingDef<T> cfMapDef, HColumn<String, byte[]> col)
+  protected <T> void addToExtraIfCan(Object obj, CFMappingDef<T> cfMapDef, HColumn<String, byte[]> col)
       throws SecurityException, IllegalArgumentException, IllegalAccessException,
       InvocationTargetException {
     Method meth = cfMapDef.getAnonymousPropertyAddHandler();
