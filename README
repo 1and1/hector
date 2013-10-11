@@ -1,4 +1,5 @@
-Hector uses *Sphinx* (http://sphinx.pocoo.org/ 1.0.8) to generate and parse the docs and it is based on the rST format (This page has the same format)
+Hector uses *Sphinx* (http://sphinx.pocoo.org/ 1.0.8) to generate and parse the docs
+and it is based on the rST format (This page has the same format)
 
 In order to be able to generate sphinx docs, please install Sphinx as indicated http://matplotlib.sourceforge.net/sampledoc/getting_started.html
 
